@@ -7,5 +7,8 @@ var CommonCmd = []*cli.Command{
 	signmCmd,
 	signTxCmd,
 	sendCmd,
+	gendidCmd,
+	loginCmd,
+	idCmd,
 	versionCmd,
 }

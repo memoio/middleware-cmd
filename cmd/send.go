@@ -12,7 +12,7 @@ import (
 )
 
 var sendCmd = &cli.Command{
-	Name:      "send",
+	Name:      "sendtx",
 	Usage:     "send transaction",
 	ArgsUsage: "[transaction]",
 	Action: func(ctx *cli.Context) error {

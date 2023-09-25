@@ -18,7 +18,7 @@ var signmCmd = &cli.Command{
 	Action: func(ctx *cli.Context) error {
 		args := ctx.Args()
 		if args.Len() != 2 {
-			return fmt.Errorf("args number not right, need 4")
+			return fmt.Errorf("args number not right, need 2")
 		}
 		sk := args.Get(0)
 		message := args.Get(1)
